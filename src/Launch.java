@@ -6,7 +6,7 @@ public class Launch {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.ie.driver","C:\\Users\\Pradheba\\Selenium\\SeleniumDay1\\Driver\\IEDriverServer.exe" );
 		WebDriver driver = new InternetExplorerDriver();
-		driver.get("https://www.greenstechnologys.com/");
+		driver.get("https://github.com/");
 		
 		String ti = driver.getTitle();
 		System.out.println(ti);
